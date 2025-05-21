@@ -1,0 +1,56 @@
+body {
+    background-color: #bbbbbb;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    background-color: #202020;
+    color: white;
+    position: fixed;
+    text-align: center;
+    inline-size: 100%;
+    top: -0px;
+    left: 0%;
+}
+
+nav {
+    color: #202020;
+    position: fixed;
+    text-align: center;
+    top: 110px;
+    background-color: aliceblue;
+    left: 0%;
+    inline-size: 100%;
+    padding: -20px;
+}
+
+footer {
+    background-color: #202020;
+    color: white;
+    left: 0%;
+    inline-size: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+.logo {
+    position: fixed;
+    top: 144px;
+}
+
+a:hover {
+    color: grey;
+    background-color: #bbbbbb;
+    padding: 17px;
+    text-decoration: none;
+}
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+
+a:visited {
+    color: rgba(110, 110, 110, 0);
+}
